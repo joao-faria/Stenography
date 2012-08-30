@@ -3,9 +3,10 @@ Stenography
 
 Hidding files into images.
 
-Encoder.exe <input carrier image> <input message file> <output encoded image>
-Decoder.exe <input encoded image> <input carrier image> <output message file>
+* Encoder.exe input_carrier_image input_message_file output_encoded_image.
+* Decoder.exe input_encoded_image input_carrier_image output_message_file.
 
-carrier image - image which is the base for the encoded image
-message file - file to hide
-encoded image - message file hidden in the carrier image
+Arguments:
+* carrier image - image which is the base for the encoded image.
+* message file - file to hide.
+* encoded image - message file hidden in the carrier image.
